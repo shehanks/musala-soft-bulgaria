@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusalaSoft.Transpotation.Web", "MusalaSoft.Transpotation.Web\MusalaSoft.Transpotation.Web.csproj", "{ACEB75F6-4746-4884-947C-157AC82D0FAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusalaSoft.Transpotation.Repository", "MusalaSoft.Transpotation.Repository\MusalaSoft.Transpotation.Repository.csproj", "{F2EACB22-80D0-4DBF-825F-8017E5DA9C54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusalaSoft.Transpotation.DataAccess", "MusalaSoft.Transpotation.DataAccess\MusalaSoft.Transpotation.DataAccess.csproj", "{313BCEF6-9C64-4ABC-82AE-360F19B93913}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusalaSoft.Transpotation.Domain", "MusalaSoft.Transpotation.Domain\MusalaSoft.Transpotation.Domain.csproj", "{8264B3AB-9C6B-4B56-9CFB-03122CCC7D93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusalaSoft.Transpotation.Repository.Contract", "MusalaSoft.Transpotation.Repository.Contract\MusalaSoft.Transpotation.Repository.Contract.csproj", "{227F1596-62FD-40FA-AEC9-DE817C660273}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusalaSoft.Transpotation.BusinessServices", "MusalaSoft.Transpotation.BusinessServices\MusalaSoft.Transpotation.BusinessServices.csproj", "{F01F7E4A-70A2-4F96-9508-655FE2F97B6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusalaSoft.Transpotation.BusinessServices.Contract", "MusalaSoft.Transpotation.BusinessServices.Contract\MusalaSoft.Transpotation.BusinessServices.Contract.csproj", "{55208205-A96E-4C76-B86D-9F945EF6A0C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusalaSoft.Transpotation.Helpers", "MusalaSoft.Transpotation.Helpers\MusalaSoft.Transpotation.Helpers.csproj", "{A08B9270-2669-4196-BBF5-4C78FED45923}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusalaSoft.Transpotation.WorkerServices", "MusalaSoft.Transpotation.WorkerServices\MusalaSoft.Transpotation.WorkerServices.csproj", "{E6BBE8DB-B1E3-40FD-AA0C-FC77AE6514FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusalaSoft.Transpotation.UnitTest", "MusalaSoft.Transpotation.UnitTest\MusalaSoft.Transpotation.UnitTest.csproj", "{9AFC83F6-5FCA-4FE3-A196-EA12EC61345B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACEB75F6-4746-4884-947C-157AC82D0FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEB75F6-4746-4884-947C-157AC82D0FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEB75F6-4746-4884-947C-157AC82D0FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEB75F6-4746-4884-947C-157AC82D0FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EACB22-80D0-4DBF-825F-8017E5DA9C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EACB22-80D0-4DBF-825F-8017E5DA9C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EACB22-80D0-4DBF-825F-8017E5DA9C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EACB22-80D0-4DBF-825F-8017E5DA9C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313BCEF6-9C64-4ABC-82AE-360F19B93913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313BCEF6-9C64-4ABC-82AE-360F19B93913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313BCEF6-9C64-4ABC-82AE-360F19B93913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313BCEF6-9C64-4ABC-82AE-360F19B93913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8264B3AB-9C6B-4B56-9CFB-03122CCC7D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8264B3AB-9C6B-4B56-9CFB-03122CCC7D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8264B3AB-9C6B-4B56-9CFB-03122CCC7D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8264B3AB-9C6B-4B56-9CFB-03122CCC7D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227F1596-62FD-40FA-AEC9-DE817C660273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227F1596-62FD-40FA-AEC9-DE817C660273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227F1596-62FD-40FA-AEC9-DE817C660273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227F1596-62FD-40FA-AEC9-DE817C660273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01F7E4A-70A2-4F96-9508-655FE2F97B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01F7E4A-70A2-4F96-9508-655FE2F97B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01F7E4A-70A2-4F96-9508-655FE2F97B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01F7E4A-70A2-4F96-9508-655FE2F97B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55208205-A96E-4C76-B86D-9F945EF6A0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55208205-A96E-4C76-B86D-9F945EF6A0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55208205-A96E-4C76-B86D-9F945EF6A0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55208205-A96E-4C76-B86D-9F945EF6A0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08B9270-2669-4196-BBF5-4C78FED45923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08B9270-2669-4196-BBF5-4C78FED45923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08B9270-2669-4196-BBF5-4C78FED45923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08B9270-2669-4196-BBF5-4C78FED45923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BBE8DB-B1E3-40FD-AA0C-FC77AE6514FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BBE8DB-B1E3-40FD-AA0C-FC77AE6514FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BBE8DB-B1E3-40FD-AA0C-FC77AE6514FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BBE8DB-B1E3-40FD-AA0C-FC77AE6514FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AFC83F6-5FCA-4FE3-A196-EA12EC61345B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFC83F6-5FCA-4FE3-A196-EA12EC61345B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFC83F6-5FCA-4FE3-A196-EA12EC61345B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFC83F6-5FCA-4FE3-A196-EA12EC61345B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58364F7E-2421-4063-B70D-F4A05A3F48AA}
+	EndGlobalSection
+EndGlobal
