@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "cb7a932d-416f-46cf-a490-0603cae7d43d",
+		"name": "Musala Soft Drone Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17183276"
+	},
+	"item": [
+		{
+			"name": "Register drone",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"serialNumber\": \"dr-45456456-13986\",\r\n  \"modelId\": 4,\r\n  \"batteryPercentage\": 68\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5124/api/drone/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5124",
+					"path": [
+						"api",
+						"drone",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Load medication to a drone",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"droneId\": 9,\r\n  \"medicationItems\": [\r\n    {\r\n      \"name\": \"med00001\",\r\n      \"weight\": 120,\r\n      \"code\": \"CODE0001\",\r\n      \"imageUrl\": \"imgurl01\"\r\n    },\r\n    {\r\n      \"name\": \"med00002\",\r\n      \"weight\": 35,\r\n      \"code\": \"CODE0002\",\r\n      \"imageUrl\": \"imgurl02\"\r\n    },\r\n    {\r\n      \"name\": \"med00003\",\r\n      \"weight\": 97,\r\n      \"code\": \"CODE0003\",\r\n      \"imageUrl\": \"imgurl03\"\r\n    },\r\n    {\r\n      \"name\": \"med00004\",\r\n      \"weight\": 100,\r\n      \"code\": \"CODE0004\",\r\n      \"imageUrl\": \"imgurl04\"\r\n    }\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5124/api/medication/load",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5124",
+					"path": [
+						"api",
+						"medication",
+						"load"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change drone state.",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"droneId\": 9,\r\n  \"stateId\": 3\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5124/api/drone/changestate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5124",
+					"path": [
+						"api",
+						"drone",
+						"changestate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check available drones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5124/api/drone/available",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5124",
+					"path": [
+						"api",
+						"drone",
+						"available"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Chech battery capacity of a drone",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 9\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5124/api/drone/capacity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5124",
+					"path": [
+						"api",
+						"drone",
+						"capacity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check loaded medication to a drone",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 9\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5124/api/medication/loaded",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5124",
+					"path": [
+						"api",
+						"medication",
+						"loaded"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
